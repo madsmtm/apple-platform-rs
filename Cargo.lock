@@ -108,6 +108,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a4668cab20f66d8d020e1fbc0ebe47217433c1b6c8f2040faf858554e394ace6"
 
 [[package]]
+name = "apfs-core"
+version = "0.1.0"
+dependencies = [
+ "apfs-types",
+ "bit-vec",
+ "bitflags 2.4.1",
+ "bytes",
+ "log",
+ "num_enum",
+ "thiserror",
+]
+
+[[package]]
 name = "apfs-derive"
 version = "0.1.0"
 dependencies = [
@@ -822,6 +835,12 @@ dependencies = [
  "bytes",
  "smallvec",
 ]
+
+[[package]]
+name = "bit-vec"
+version = "0.6.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "349f9b6a179ed607305526ca489b34ad0a41aed5f7980fa90eb03160b69598fb"
 
 [[package]]
 name = "bitflags"
